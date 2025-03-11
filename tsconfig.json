@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",  // 输出目录
+      "module": "commonjs", // 或者使用 "amd", "system", "umd", "es2015" 等根据需要
+      "target": "ES5",
+      "strict": true, // 启用所有严格类型检查选项
+      "esModuleInterop": true // 允许导入非ES模块
+    },
+    "exclude": [
+      "node_modules", // 排除不需要编译的目录
+      "**/*.test.ts"  // 排除测试文件
+    ]
+  }
