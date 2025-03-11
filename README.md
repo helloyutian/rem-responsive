@@ -18,6 +18,7 @@ yarn add -S rem-responsive
 
 ### Import 方式导入(推荐)
 ```js
+// main.js
 import remResponsive from 'rem-responsive'
 
 remResponsive({
