@@ -1,5 +1,4 @@
 const path = require('path')
-const { ScriptTarget } = require('typescript')
 
 module.exports = {
   entry: './src/index.ts',
