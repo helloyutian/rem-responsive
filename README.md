@@ -1,6 +1,7 @@
 # rem-responsive
 
 一个在网页响应式布局的js插件，利用rem单位的特性，根据页面宽度动态调整根字体大小，从而实现rem单位的动态展示，插件压缩后小于1KB
+
 A JS plugin for responsive layout of web pages, used to dynamically respond to the rem units of Css on web pages
 
 ## 安装(Install)
@@ -16,6 +17,7 @@ yarn add -S rem-responsive
 ## 使用(Usage)
 
 **RemResponsive.config(options)**
+
 页面随屏幕宽度变化的元素直接使用 `rem` 单位，设置`options.root`与设计图宽度一致时，1rem = 1px，例如：设计图元素宽度为100px，在CSS样式上直接写100rem，不需要另外计算。
 
 ### Import 导入(推荐)
